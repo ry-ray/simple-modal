@@ -15,6 +15,11 @@
   &:hover {
     border-color: #e6e6e6;
   }
+
+  @media(max-width: 660px){
+    padding: 10px 20px;
+  }
+
 }
 
 .button--primary {

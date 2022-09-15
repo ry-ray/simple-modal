@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5, h6, p {
   transition: color 0.2s ease-in, background-color 0.2s ease-in, border-color 0.2s ease-in; }
   .button:hover {
     border-color: #e6e6e6; }
+  @media (max-width: 660px) {
+    .button {
+      padding: 10px 20px; } }
 
 .button--primary {
   color: white;
